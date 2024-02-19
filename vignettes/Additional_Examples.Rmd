@@ -4,7 +4,6 @@ date: "`r Sys.Date()`"
 output: 
   rmarkdown::pdf_document
 header-includes:
-- \usepackage{chemformula}
 - \usepackage{amsmath}
 vignette: >
   %\VignetteIndexEntry{Additional Examples}
