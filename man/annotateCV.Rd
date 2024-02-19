@@ -4,8 +4,13 @@
 \alias{annotateCV}
 \title{Annotate Cyclic Voltammogram}
 \usage{
-annotateCV(filename, main_title = NULL, forward.per = 5, reverse.per = 5,
-  threshold = 0.05)
+annotateCV(
+  filename,
+  main_title = NULL,
+  forward.per = 5,
+  reverse.per = 5,
+  threshold = 0.05
+)
 }
 \arguments{
 \item{filename}{Name of the file that contains the results of a simulated cyclic voltammetry experiment.}

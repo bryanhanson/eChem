@@ -4,10 +4,25 @@
 \alias{simulateCV}
 \title{Simulate a Cyclic Voltammetry Experiment}
 \usage{
-simulateCV(e.start = 0, e.switch = -0.5, e.form = -0.25,
-  mechanism = c("E", "EC", "CE"), ko = 1, kcf = 0, kcr = 0, n = 1,
-  alpha = 0.5, d = 1e-05, area = 0.01, temp = 298.15, scan.rate = 1,
-  conc.bulk = 0.001, t.units = 2000, x.units = 180, sd.noise = 0)
+simulateCV(
+  e.start = 0,
+  e.switch = -0.5,
+  e.form = -0.25,
+  mechanism = c("E", "EC", "CE"),
+  ko = 1,
+  kcf = 0,
+  kcr = 0,
+  n = 1,
+  alpha = 0.5,
+  d = 1e-05,
+  area = 0.01,
+  temp = 298.15,
+  scan.rate = 1,
+  conc.bulk = 0.001,
+  t.units = 2000,
+  x.units = 180,
+  sd.noise = 0
+)
 }
 \arguments{
 \item{e.start}{Initial potential (in volts).}

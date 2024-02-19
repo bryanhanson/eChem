@@ -4,11 +4,17 @@
 \alias{plotCC}
 \title{Plot Chronocoulograms}
 \usage{
-plotCC(filenames = list(file1 = NULL, file2 = NULL), scale = 1,
-  legend_text = NULL, legend_position = "topleft", main_title = NULL,
-  line_widths = c(2, 2, 2, 2, 2), line_types = c(1, 2, 3, 4, 5),
-  point_symbols = c(21, 22, 23, 24, 25), line_colors = c("blue", "blue",
-  "blue", "blue", "blue"))
+plotCC(
+  filenames = list(file1 = NULL, file2 = NULL),
+  scale = 1,
+  legend_text = NULL,
+  legend_position = "topleft",
+  main_title = NULL,
+  line_widths = c(2, 2, 2, 2, 2),
+  line_types = c(1, 2, 3, 4, 5),
+  point_symbols = c(21, 22, 23, 24, 25),
+  line_colors = c("blue", "blue", "blue", "blue", "blue")
+)
 }
 \arguments{
 \item{filenames}{A list giving the names of 1--5 files that contain the results of a simulated chronocoulometry experiment.}

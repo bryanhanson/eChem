@@ -4,11 +4,26 @@
 \alias{simulateLSV}
 \title{Simulate a Linear Sweep Voltammetry Experiment}
 \usage{
-simulateLSV(e.start = 0, e.end = -1, e.form = -0.25, mechanism = c("E",
-  "EC", "CE"), ko = 1, kcf = 0, kcr = 0, n = 1, alpha = 0.5,
-  d = 1e-05, area = 0.01, temp = 298.15, scan.rate = 1,
-  conc.bulk = 0.001, t.units = 2000, x.units = 180, sd.noise = 0,
-  stir.rate = c("off", "slow", "medium", "fast"))
+simulateLSV(
+  e.start = 0,
+  e.end = -1,
+  e.form = -0.25,
+  mechanism = c("E", "EC", "CE"),
+  ko = 1,
+  kcf = 0,
+  kcr = 0,
+  n = 1,
+  alpha = 0.5,
+  d = 1e-05,
+  area = 0.01,
+  temp = 298.15,
+  scan.rate = 1,
+  conc.bulk = 0.001,
+  t.units = 2000,
+  x.units = 180,
+  sd.noise = 0,
+  stir.rate = c("off", "slow", "medium", "fast")
+)
 }
 \arguments{
 \item{e.start}{Initial potential (in volts).}

@@ -4,11 +4,28 @@
 \alias{simulateCA}
 \title{Simulate a Chronoamperometry Experiment}
 \usage{
-simulateCA(e.start = 0, e.pulse = -0.5, e.form = -0.25,
-  mechanism = c("E", "EC", "CE"), ko = 1, kcf = 0, kcr = 0,
-  pulses = c("single", "double"), t.1 = 10, t.2 = 0, t.end = 30,
-  n = 1, alpha = 0.5, d = 1e-05, area = 0.01, temp = 298.15,
-  conc.bulk = 0.001, t.units = 2000, x.units = 180, sd.noise = 0)
+simulateCA(
+  e.start = 0,
+  e.pulse = -0.5,
+  e.form = -0.25,
+  mechanism = c("E", "EC", "CE"),
+  ko = 1,
+  kcf = 0,
+  kcr = 0,
+  pulses = c("single", "double"),
+  t.1 = 10,
+  t.2 = 0,
+  t.end = 30,
+  n = 1,
+  alpha = 0.5,
+  d = 1e-05,
+  area = 0.01,
+  temp = 298.15,
+  conc.bulk = 0.001,
+  t.units = 2000,
+  x.units = 180,
+  sd.noise = 0
+)
 }
 \arguments{
 \item{e.start}{Initial potential (in volts).}

@@ -2,6 +2,7 @@
 % Please edit documentation in R/eChem-package.R
 \docType{package}
 \name{eChem-package}
+\alias{eChem}
 \alias{eChem-package}
 \title{Simulations for Electrochemistry Experiments}
 \description{
@@ -13,6 +14,13 @@ for either an oxidation reaction or for a reduction reaction, and allows for
 a single following or a single preceding chemical reaction. Also included
 are a variety of functions for displaying the result of a simulation in
 either a static or animated format.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/dtharvey/eChem}
+}
+
 }
 \author{
 David T. Harvey

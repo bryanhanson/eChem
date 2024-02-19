@@ -4,7 +4,7 @@ date: "`r Sys.Date()`"
 output: 
   rmarkdown::pdf_document
 header-includes:
-- \usepackage{chemformula}
+- \usepackage{mhchem}
 - \usepackage{amsmath}
 vignette: >
   %\VignetteIndexEntry{Overview of the eChem Package}
@@ -14,17 +14,17 @@ vignette: >
 
 # What Simulations Are Possible?
 
-This package includes functions to simulate four different types of electrochemistry experiments: two potential step experiments (chronoamperometry and chronocoulometry), and two potential scan experiments (linear-sweep voltammetry and cyclic voltammetry). As shown in Table 1, each simluation allows for an initial oxidation reaction or an initial reduction reaction, and allows for a single preceding or a single following chemical step, where Z is a non-electroactive species. 
+This package includes functions to simulate four different types of electroceemistry experiments: two potential step experiments (chronoamperometry and chronocoulometry), and two potential scan experiments (linear-sweep voltammetry and cyclic voltammetry). As shown in Table 1, each simluation allows for an initial oxidation reaction or an initial reduction reaction, and allows for a single preceding or a single following chemical step, where Z is a non-electroactive species. 
 
 |general mechanism|initial reduction|initial oxidation|
 |-----------------|:------------------:|:------------------:|
-|E only|$\ch{Ox + \textit{n} e- <=> Red}$|$\ch{Red <=> Ox + \textit{n} e-}$|
+|E only|$\ce{Ox + \textit{n} e- <=> Red}$|$\ce{Red <=> Ox + \textit{n} e-}$|
 ||||
-|EC|$\ch{Ox + \textit{n} e- <=> Red}$|$\ch{Red <=> Ox + \textit{n} e-}$|
-||$\ch{Red <=> Z}$|$\ch{Ox <=> Z}$|
+|EC|$\ce{Ox + \textit{n} e- <=> Red}$|$\ce{Red <=> Ox + \textit{n} e-}$|
+||$\ce{Red <=> Z}$|$\ce{Ox <=> Z}$|
 ||||
-|CE|$\ch{Z <=> Ox}$|$\ch{Z <=> Red}$|
-||$\ch{Ox + \textit{n} e- <=> Red}$|$\ch{Red <=> Ox + \textit{n} e-}$|
+|CE|$\ce{Z <=> Ox}$|$\ce{Z <=> Red}$|
+||$\ce{Ox + \textit{n} e- <=> Red}$|$\ce{Red <=> Ox + \textit{n} e-}$|
 
 Table: Mechanisms for Electrochemistry Simulations
 
