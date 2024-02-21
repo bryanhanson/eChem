@@ -17,4 +17,4 @@
 #'
 #' Maintainer: David T. Harvey \email{harvey@depauw.edu}
 #'
-NULL
+"_PACKAGE"
